@@ -1,0 +1,165 @@
+.main{
+  display:grid;
+  grid-gap: 0;
+  margin: none;
+  padding:none;
+}
+
+/*00000000000000000Landing Page00000000000000000*/
+.landing-page{
+  background-color: black;
+  color:white;
+  padding:10px;
+  opacity:.8;
+  border-radius: 10px;
+  width:70%;
+  margin:auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.landing-page h1{
+  font-size: 3em;
+}
+.banner p{
+  text-align:center;
+  font-size: 3rem;
+  color: white;
+}
+.about-me{
+  margin: 5px 0px;
+  background-color: black;
+  padding:15px;
+  color: white;
+  font-size: 1.5rem;
+}
+/*00000000000000000HEADER00000000000000000*/
+.header{
+  margin-top:0;
+  width:100%;
+  min-height:25vh;
+  background-image:linear-gradient( to right, #16222A, #3A6073);
+  background-size: 100%;
+  font-size:3rem;
+}
+.header-inner{
+  width:70%;
+  margin:auto;
+  text-align: center;
+}
+.header-inner h1{
+  margin-top: 0;
+}
+
+/*00000000000000000Nav Bar00000000000000000*/
+.nav-bar{
+  background-color:#3A6073;
+  color:#16222A;
+  padding:10px;
+  font-size:2em;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nav-bar p{
+  cursor: pointer;
+}
+.nav-bar p:hover{
+  color:black;
+}
+/*00000000000000000INFO00000000000000000*/
+.info{
+	display:none
+}
+
+.info-active{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+	z-index: 1000;
+  top:0;
+  padding:10px;
+	height:100vh;
+	width:100%;
+  background-color:black;
+  color:white;
+  display:block;
+  opacity:.8;
+}
+
+.info-card{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  width:50%;
+  margin:auto;
+}
+.name{
+  grid-column: 1/-1;
+}
+
+.info-card a{
+  color:white
+}
+
+.info-button{
+  font-size: 1.5rem;
+  border:none;
+  background-color:#3A6073;
+  cursor: pointer;
+}
+
+/*00000000000000000Resume00000000000000000*/
+.resume{
+  display: flex;
+  width:75%;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+a{
+  color:black;
+}
+.XP-grid{
+  margin-top: 10px;
+}
+.XP, .SKILL{
+  background-color: #16222A;
+  padding:10px;
+}
+.XP-grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.WorkEXP{
+  background-color: white;
+  border: 1px solid  #16222A;
+  padding:2px;
+}
+.EDU{
+  background-image: linear-gradient( to right, #3A6073, #16222A);
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  padding:10px;
+}
+/*00000000000000000Projects00000000000000000*/
+.projects{
+  background-color: transparent;
+  margin:15px;
+  padding:15px;
+}
+
+.project-card{
+  margin-bottom: 15px;
+  background-color: antiquewhite;
+  display:grid;
+  grid-template-columns: 2fr 2fr;
+  box-shadow: 5px 10px;
+  font-size:1.5em;
+}
+
+.project-info{
+  padding:4px;
+}
