@@ -155,11 +155,18 @@ a{
   margin-bottom: 15px;
   background-color: antiquewhite;
   display:grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 3fr 1fr;
   box-shadow: 5px 10px;
   font-size:1.5em;
 }
 
 .project-info{
-  padding:4px;
+  padding:10px;
+}
+
+.project-link-button{
+  padding: 10px;
+  font-size: 20px;
+  background-color: grey;
+  border-radius:5px;
 }

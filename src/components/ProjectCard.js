@@ -7,7 +7,7 @@ function ProjectCard(props){
             <div className='project-info'>
             <h1>{props.heading}</h1>
             <p>{props.discription}</p>
-            <p><a href={props.link} target="_blank">Check me out?</a></p>
+            <p><a href={props.link} target="_blank"><button className="project-link-button">Check me out?</button></a></p>
             </div>            
         </div>
     )
