@@ -5,7 +5,9 @@ import ProjectCard from './ProjectCard'
 
 import task10 from '../images/task10.png'
 import task15 from '../images/task15.png'
-import task12 from '../images/weatherApp.png' 
+import task12 from '../images/weatherApp.png'
+import calculator from '../images/calculator.png'
+import lightbox from '../images/lightbox.png' 
 
 function Projects(){
 
@@ -37,6 +39,17 @@ function Projects(){
             user's input. It should then display the data in a readable manner. This was my first exposure to API's and I am excited
             to increase my knowledge and skill regarding such methods. Please give it a try."
             link="https://weather-app-yk.herokuapp.com"
+            />
+            <ProjectCard
+            imgSrc={calculator}
+            heading="Using plain javascript to create a fully functioning calculator"
+            discription="This is a project that I wouldn' call my own since I found a tutorial online. I can however say that I fully understand the code and can reproduce it on my own"
+            link="https://yusufker.github.io/js-calculator/"
+            /><ProjectCard
+            imgSrc={lightbox}
+            heading="Using html, css and javascript to create a lightbox gallery"
+            discription="Ths project uses a css div that has its diplay property set to hidden. Once the user clicks on it, the css display property is changed to inline-block and the div is populated with an image which has the same source as the one that the user clicks on"
+            link="https://yusufker.github.io/lightbox-css-js/"
             />
 
         </animated.div>
