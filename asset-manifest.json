@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio-old/static/css/main.310d2bb7.chunk.css",
+    "main.js": "/portfolio-old/static/js/main.645acd0b.chunk.js",
+    "main.js.map": "/portfolio-old/static/js/main.645acd0b.chunk.js.map",
+    "runtime-main.js": "/portfolio-old/static/js/runtime-main.2944da69.js",
+    "runtime-main.js.map": "/portfolio-old/static/js/runtime-main.2944da69.js.map",
+    "static/js/2.63a29d87.chunk.js": "/portfolio-old/static/js/2.63a29d87.chunk.js",
+    "static/js/2.63a29d87.chunk.js.map": "/portfolio-old/static/js/2.63a29d87.chunk.js.map",
+    "index.html": "/portfolio-old/index.html",
+    "precache-manifest.4048f5ae88c102a1dacf901bdea8496d.js": "/portfolio-old/precache-manifest.4048f5ae88c102a1dacf901bdea8496d.js",
+    "service-worker.js": "/portfolio-old/service-worker.js",
+    "static/css/main.310d2bb7.chunk.css.map": "/portfolio-old/static/css/main.310d2bb7.chunk.css.map",
+    "static/media/ExclusiveBooks.jpg": "/portfolio-old/static/media/ExclusiveBooks.1b58120f.jpg",
+    "static/media/ProfilePic.jpg": "/portfolio-old/static/media/ProfilePic.58208a64.jpg",
+    "static/media/bladesAndTriggers.jpg": "/portfolio-old/static/media/bladesAndTriggers.f87519ff.jpg",
+    "static/media/calculator.png": "/portfolio-old/static/media/calculator.30ac1deb.png",
+    "static/media/lightbox.png": "/portfolio-old/static/media/lightbox.665e2f0a.png",
+    "static/media/school.jpg": "/portfolio-old/static/media/school.715c1786.jpg",
+    "static/media/task10.png": "/portfolio-old/static/media/task10.dbea02b7.png",
+    "static/media/task15.png": "/portfolio-old/static/media/task15.1a9990af.png",
+    "static/media/weatherApp.png": "/portfolio-old/static/media/weatherApp.849f48ad.png"
+  }
+}
